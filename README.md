@@ -18,3 +18,4 @@ for aluno in alunos:
     nota = calcular_media(soma, qtde_notas)
     faltas = aluno['faltas']
     print(f'Aluno: {aluno['nome']}, Nota: {nota} Status: {status_aprovacao(nota, faltas)}')
+    
