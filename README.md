@@ -19,3 +19,4 @@ for aluno in alunos:
     faltas = aluno['faltas']
     print(f'Aluno: {aluno['nome']}, Nota: {nota} Status: {status_aprovacao(nota, faltas)}')
     
+teste
